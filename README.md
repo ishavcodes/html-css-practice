@@ -6,7 +6,7 @@ A practice webpage built from scratch using only HTML and CSS — no JavaScript,
 
 ## 🌐 Live Preview
 
-> Open `index.html` in your browser to view the page...
+> Open (https://ishavcodes.github.io/html-css-practice/)
 
 ---
 
