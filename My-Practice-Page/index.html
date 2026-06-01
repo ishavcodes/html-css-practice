@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Practice Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <h1>Dev</h1>
+            <h1 id="dot">.</h1>
+            <h1>Practice</h1>
+        </div>
+        <div id="left">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Work">Work</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </nav>
+    <div id="main">
+        <h1>Learn, Build, <span id="grow">Grow</span></h1>
+        <p>Starting with HTML and CSS, you can build anything on the <br> web. This is a practice page — the first step of your journey.</p>
+        <button>
+            <a href="#Explore">
+                <h6>Explore</h6>
+            <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </button>
+    </div>
+    <div id="page2">
+        <h1>What Will You Learn Here?</h1>
+        <button></button>
+        <p>This page includes a Navbar, Hero section, Cards, a Contact Form, and a Footer — built with <br> only HTML and CSS. No JavaScript. No frameworks. Just the power of the basics.</p>
+        <h2>Core Concepts</h2>
+        <div id="boxes">
+            <div class="box1" >
+                <div class="box1-in">
+                    <img src="./images/construction.png" alt="">
+                    <h2>HTML Structures</h2>
+                    <p>Tags, elements, and semantic <br> layout — this is the skeleton <br> of every webpage.</p>
+                </div>
+            </div>
+            <div class="box1" >
+                <div class="box1-in">
+                    <img src="./images/palette.png" alt="">
+                    <h2>CSS Styling</h2>
+                    <p>Colors, fonts, spacing, and layout — CSS brings your design to life.</p>
+                </div>
+            </div>
+            <div class="box1" >
+                <div class="box1-in">
+                    <img src="./images/triangular-ruler.png" alt="">
+                    <h2>Flexbox Layout</h2>
+                    <p>Want cards side by side? Flexbox makes layout easy and intuitive.</p>
+                </div>
+            </div>
+        </div>
+        <form id="form">
+            <h1>Get in Touch</h1>
+            <p>Have a question? Send a message.</p>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea name="" id="" placeholder="Your Message..." required></textarea>
+            <button id="send" type="submit">
+                <h3>Send</h3>
+                <img src="./images/rocket.png" alt="rocket">
+            </button>
+        </form>
+        <footer>
+            <p>© 2026 Dev.Practice — Built with HTML + CSS with ❤️</p>
+        </footer>
+    </div>
+</body>
+</html>
